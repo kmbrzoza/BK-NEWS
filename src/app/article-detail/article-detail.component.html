@@ -1,0 +1,26 @@
+<ng-container *ngIf="article; else noArticle">
+    <div class="text-center">
+        <!-- Article Header -->
+        <h2>{{article.title}}}</h2>
+        <hr>
+        <!-- Article Image -->
+        <div class="">
+            <img class="articleImg img-fluid" src="{{article.imageUrl}}">
+        </div>
+    
+        <!-- Article Text -->
+        <div>
+            <p class="articleText pt-4">
+                {{article.summary}}
+            </p>
+            <p class="articleText pt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatibus rem ea beatae, veritatis possimus eaque expedita similique rerum quod. Veritatis sapiente nihil ipsa accusantium dicta placeat neque soluta odit!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius assumenda molestias unde labore, quibusdam blanditiis reiciendis velit minus perferendis. Maxime, officiis at. Architecto fugit nisi accusantium aspernatur, illo quo vel.
+            </p>
+        </div>
+    </div>
+</ng-container>
+
+<ng-template #noArticle>
+    Brak artykulu
+</ng-template>

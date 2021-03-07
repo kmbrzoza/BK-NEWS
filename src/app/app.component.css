@@ -1,0 +1,94 @@
+#navbarLogoLink{
+    color: black;
+    font-family: Comic Sans MS;
+    font-size: 50px;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+@media (max-width: 767.98px){
+    #navbarLogoLink{
+        font-size: 40px;
+    }
+}
+#navbarLogoLinkBlue{
+    color:dodgerblue;
+}
+#navbarFormSearch{
+    width: 100%;
+}
+
+.navbarLiLink{
+    text-align: center;
+}
+.navbarLiLink:hover{
+    background-color: #e0e0e0;
+}
+
+/* FOOTER */
+#footerPhoneNumber
+{
+    font-size: 24px;
+}
+#footerUl
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footerLi
+{
+    padding: 5px 0;
+}
+.footerLink
+{
+    color: black;
+    text-decoration: none;
+}
+.footerLink:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+.footerSocialmedia
+{
+    margin: 10px;
+}
+.footerSocialmedia{
+    text-decoration: none;
+}
+.footerSocialmedia:hover
+{
+    text-decoration: none;
+}
+.footerSocialmediaImg
+{
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+.footerSocialmedia:hover #footerSocialmediaFacebook
+{
+    color: #1e82e5;
+}
+.footerSocialmedia:hover #footerSocialmediaInstagram
+{
+    color: #e82dcb;
+}
+.footerSocialmedia:hover #footerSocialmediaYoutube
+{
+    color: #ff1e1e;
+}
+.footerSocialmedia:hover #footerSocialmediaTwitter
+{
+    color: #227fff;
+}
+#copyright
+{
+    font-size: 12px;
+}
+#copyrightImg
+{
+    width: 12px;
+    height: 12px;
+}

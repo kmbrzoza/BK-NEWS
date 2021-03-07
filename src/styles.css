@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.link{
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    color: black;
+}
+.roundedObj{
+    border-radius: 20px;
+}

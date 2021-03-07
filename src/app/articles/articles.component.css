@@ -1,0 +1,9 @@
+.homeArticleLink{
+    border: 2px solid #eeeeee;
+}
+.homeArticleLink:hover{
+    border: 2px solid dodgerblue
+}
+.homeArticleImg{
+    max-height: 180px;
+}
